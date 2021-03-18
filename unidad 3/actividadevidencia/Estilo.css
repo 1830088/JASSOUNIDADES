@@ -1,0 +1,446 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+:root{
+
+  --fondo: #fff;
+  --header:#ADD8E6;
+  --menu: #8db9ca;
+  --cuadro_info:#ADD8E6;
+  --titulos:#2F4F4F;
+  --footer:#4298b5;
+  --borde:#123962;
+
+}
+
+
+body{
+
+	background: url("img/background_buildings.png") ;
+	background-size: cover;
+}
+
+.Principal{
+
+	width: 70%;
+	margin-left: 15%;
+}
+
+.grid{
+
+	display: grid;
+	display: flex;
+	padding: 0% 3% 0% 3%;
+	width: 40%;
+}
+
+.grid2{
+
+	display: grid;
+	grid-template-columns: auto;
+	padding: 0% 3% 0% 3%;
+	width: 70%;
+}
+
+header{
+
+	color: white;
+	background-color: black;
+	display: flex;
+	padding: 4% 3% 3% 3%;
+}
+
+nav{
+
+    background: linear-gradient(to right, orange, white);	
+    border: 10px solid transparent; 
+    border-image: linear-gradient(to right, orange , white )1;
+
+}
+
+nav ul li{
+
+	display: inline;
+}
+
+nav ul li a{
+
+	text-decoration: none;
+	margin-right: 3%;
+	color: black;
+	padding-left: 2%; 
+
+
+}
+
+nav ul li a:hover{
+
+	color:orange;
+}
+
+.Tercera{
+
+	background-color: #FFFF;
+}
+
+.Segunda{
+
+	display: flex;
+	background-color: #FFFF;
+	padding: 3% 6% 3% 6%;
+	
+}
+
+main{
+
+	width: 85%;
+	margin-right: 6%;
+}
+
+aside{
+
+	width: 50%;
+}
+
+.grid3{
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding-right:10%; 
+    padding-left:5%;
+    width: 80%;
+	
+}
+
+
+.item > img{
+ 
+    border-radius:10px;
+    margin: 1px 1px 1px 1px;
+    width:80%;
+
+
+}
+
+.Quinta{
+
+	display: flex;
+}
+
+
+.phone > img{
+
+	width: 100%;
+}
+
+.link{
+
+	float: right;
+}
+
+.Sexta{
+
+	margin-right: 2%;
+}
+
+.Septima{
+
+	padding: 4%;
+}
+
+article{
+
+	margin-bottom: 15%;
+}
+
+footer{
+
+	background-color:#38393A ;
+	color: white;
+}
+
+.Octava{
+
+	display: flex;
+	padding: 3% 5% 10% 3%;	
+
+}
+
+.grid4{
+
+	display: grid;
+	display: flex;
+	grid-auto-columns: auto  auto;
+	margin-right: 10%;
+	
+}
+
+.grid5{
+
+	
+	padding-right: 2%;
+	width: 130%;
+
+}
+
+.item7{
+
+	margin: 0 0 0 4%;
+}
+
+p{
+
+	text-align: justify;
+}
+
+a{
+	color: black;
+	
+}
+
+
+hr {
+
+	border-top:1px dotted #000;
+    margin: 2% 0 2% 0;
+}
+
+.Novena >h3{
+	color: gray;
+
+}
+
+.Novena >section{
+	display: flex;
+	
+}
+
+.art{
+	
+	border-radius: 10px;
+	width: 19%;
+	padding-left: 4%;
+}
+
+.Arte{
+    
+    display: grid;
+	grid-template-columns: auto auto auto;	
+
+}
+
+.arte > img{
+ 
+    border-radius:10px;
+    width:90%;
+
+
+}
+
+#schedule {
+ 
+  height: 1px;
+  background-color: black;
+  margin: 2% 0 2% 0;
+}
+
+.sche{
+
+	float: left;
+    border-radius:10px;
+    height: 15%;
+    padding-right: 5%;
+}
+
+p{
+
+	text-align: justify;
+
+}
+
+h3{
+	color: gray;
+}
+
+
+form>div{
+
+	margin:0 0 2% 0;
+
+}
+
+input[type="text"],input[type="password"]
+,input[type="email"], textarea{
+
+	width: 30%;
+	float: right;
+	margin-right: 40%;
+
+
+}
+
+.request{
+
+	padding-left: 29%;
+
+}
+
+.request{
+
+	width: 30%;
+
+}
+
+
+select, input[type="submit"]{
+
+	float: right;
+	margin: 1% 60% 1% 0;
+
+}
+
+
+input[type="submit"]{
+
+	width: 15%;
+
+}
+
+select{
+
+	width:20%;
+}
+
+.Principal_Login {
+
+	
+  width: 70%;
+  margin:auto;
+  margin-top: 2%;
+  border: solid 1px;
+  border-color: var(--borde);
+  background-color: var(--fondo);
+  overflow: hidden;
+
+}
+
+
+.Principal_Login >header{
+    
+    background-color:#38393A ;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+
+.Contenido_Login > input{
+
+	border: 1px dotted #999;
+	border-radius: 0;
+	-webkit-appearance: none;
+	width: 40%;
+
+
+}
+
+
+.Contenido_Login > label{
+
+  color: var(--borde);
+  
+  font-size: 18px;
+}
+
+
+.Contenido_Login >  form input, form textarea{
+display: block;    
+} 
+
+
+.Contenido_Login >  form > div{
+
+	margin: 2%;
+}
+
+.Boton_Registro{
+
+	margin: 2% 1% 1% 15%;
+
+}
+
+
+.Tabla > {
+
+
+}
+
+
+.Tabla_Registro > header{
+
+  background-color:var(--borde);
+  font-size: 25px;
+  padding: 2% 0% 2% 5%;
+  text-align: center;
+  color: white;
+  border-color: var(--borde);
+
+}
+
+.Tabla_Registro{
+
+  width: 80%;
+  margin:auto;
+  margin-top: 2%;
+  border: solid 1px;
+  border-color: var(--borde);
+  background-color: var(--fondo);
+  overflow: hidden;
+
+}
+
+.Tabla_Registro{
+
+	margin: 1% 2% 1% 2%;
+	overflow: hidden;
+
+}
+
+.Tabla > table,td,th{
+
+
+	border:solid 1px;
+	border-color: var(--borde);
+
+}
+
+.Tabla > th{
+
+	background-color: var(--borde);
+	color: white;
+	font-size: 18px;
+}
+
+
+.Tabla > td{
+
+	font-size: 16px;
+}
+
+.Tabla >table{
+
+	width: 100%;
+	height: 70%;
+	text-align: center;
+}
+
+.derecha{
+
+	float: right;
+	color: var(--borde);
+}
