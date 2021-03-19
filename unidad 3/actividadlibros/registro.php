@@ -2,8 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
 	<title>Registro</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>
 	<h1>Registrar Nuevo Libro</h1>
@@ -22,10 +24,10 @@
 			<input type="text" name="editorial" required>	
 		</div>
 		<div>
-			<label for="enlace">paginas</label>
+			<label for="enlace">Enlace</label>
 			<input name="enlace" type="text" required>	
 		</div>
-		<input type="submit" value="Registrar">
+		<input type="submit" value="Aceptar">
 	
 	</form>
 	</main>

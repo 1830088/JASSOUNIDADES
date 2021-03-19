@@ -4,6 +4,7 @@
 	<title>Register</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Estilo.css">
+	<link rel="stylesheet" type="text/css" href="Registro_1.css">
 </head>
 <body>
 

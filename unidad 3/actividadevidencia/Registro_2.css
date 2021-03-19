@@ -1,0 +1,71 @@
+
+:root{
+
+  --fondo: #fff;
+  --header:#ADD8E6;
+  --menu: #8db9ca;
+  --cuadro_info:#ADD8E6;
+  --titulos:#2F4F4F;
+  --footer:#4298b5;
+
+}
+
+
+.Cambiar_IMG{
+
+	
+	overflow: hidden;
+
+
+}
+
+
+.Form_IMG{
+
+
+	text-align: left;
+	overflow: hidden;
+
+
+}
+
+
+ input{
+
+	border: 1px dotted #999;
+	border-radius: 0;
+	-webkit-appearance: none;
+	width: 40%;
+
+
+}
+
+
+label{
+
+  color: var(--borde);
+  
+  font-size: 18px;
+}
+
+
+ form input, form textarea{
+display: block;    
+} 
+
+form > div{
+
+	margin: 2%;
+}
+
+.Boton_Artistas{
+
+	margin: 2% 1% 1% 15%;
+
+}
+
+
+form{
+
+	margin: 1% 0% 1% 2%;
+}

@@ -92,6 +92,7 @@ nav ul li a:hover{
 	display: flex;
 	background-color: #FFFF;
 	padding: 3% 6% 3% 6%;
+	overflow: hidden;
 	
 }
 
@@ -267,53 +268,7 @@ h3{
 }
 
 
-form>div{
 
-	margin:0 0 2% 0;
-
-}
-
-input[type="text"],input[type="password"]
-,input[type="email"], textarea{
-
-	width: 30%;
-	float: right;
-	margin-right: 40%;
-
-
-}
-
-.request{
-
-	padding-left: 29%;
-
-}
-
-.request{
-
-	width: 30%;
-
-}
-
-
-select, input[type="submit"]{
-
-	float: right;
-	margin: 1% 60% 1% 0;
-
-}
-
-
-input[type="submit"]{
-
-	width: 15%;
-
-}
-
-select{
-
-	width:20%;
-}
 
 .Principal_Login {
 
@@ -376,6 +331,8 @@ display: block;
 
 
 .Tabla > {
+
+	overflow: hidden;
 
 
 }
@@ -443,4 +400,17 @@ display: block;
 
 	float: right;
 	color: var(--borde);
+}
+
+.Cambio_Artistas{
+
+	width: 50%;
+	padding: 2% 2% 2% 2%;
+	border: solid 1px;
+	border-color: var(--borde);
+	text-align: center;
+	margin: auto;
+	background-color: var(--header);
+	overflow: hidden;
+
 }

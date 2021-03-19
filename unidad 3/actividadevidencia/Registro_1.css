@@ -1,0 +1,49 @@
+
+form>div{
+
+	margin:0 0 2% 0;
+
+}
+
+input[type="text"],input[type="password"]
+,input[type="email"], textarea{
+
+	width: 30%;
+	float: right;
+	margin-right: 40%;
+
+
+}
+
+.request{
+
+	padding-left: 29%;
+
+}
+
+.request{
+
+	width: 30%;
+
+}
+
+
+select, input[type="submit"]{
+
+	float: right;
+	margin: 1% 60% 1% 0;
+
+}
+
+
+input[type="submit"]{
+
+	width: 15%;
+
+}
+
+select{
+
+	width:20%;
+
+}

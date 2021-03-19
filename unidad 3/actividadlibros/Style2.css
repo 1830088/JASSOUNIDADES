@@ -1,0 +1,33 @@
+body{
+  background-color: #FF00FF;
+}
+main{
+	background-color:rgb(161, 200, 139); 
+	padding:50px; 
+    text-align: center;
+}
+
+table{
+	border: solid 1px rgb(255, 255, 255);
+	font-size: 20px;
+    
+    
+}
+
+th,td{
+	border: solid 1px rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+.tabla{
+	border-color: rgb(255, 255, 255);
+	margin-left: 40px;
+    
+}
+
+h1{
+	color:rgb(0, 225, 255);
+    text-align: center;
+}
